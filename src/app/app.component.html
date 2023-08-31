@@ -1,0 +1,7 @@
+<app-header></app-header>
+
+<app-create-post (createPostValue)="onPostAdded($event)"></app-create-post>
+<hr />
+<div>
+  <app-postlist [postList]="postlist"></app-postlist>
+</div>
