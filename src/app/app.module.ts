@@ -13,6 +13,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { HeaderComponent } from './header/header-component';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   imports: [
@@ -24,6 +25,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
     MatToolbarModule,
     MatButtonModule,
     MatExpansionModule,
+    NgbModule,
   ],
   declarations: [
     AppComponent,
